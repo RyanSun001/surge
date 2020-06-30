@@ -330,6 +330,6 @@ eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/bea\.spor
 
 eval_script.js = type=http-request,requires-body=1,pattern=^https://8.8.8.8/api,script-path=eval_script.js
 
-eval_script.js = type=http-response,requires-body=1,pattern=^https://8.8.8.8/(home|app|log\/),script-path=eval_script.js
+eval_script.js = type=http-response,requires-body=1,pattern=^https://8.8.8.8/(home|sub|my|app|log\/),script-path=eval_script.js
 
 eval_script.js = type=http-response,requires-body=1,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/warmer/.+type=show-ath,script-path=eval_script.js
