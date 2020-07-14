@@ -324,6 +324,6 @@ http://user.shywck.com/user/userinfo url script-response-body eval_script.js
 
 ^https://8.8.8.8/api url script-request-body eval_script.js
 
-^https://8.8.8.8/(home|sub|my|app|log\/) url script-response-body eval_script.js
+^https://8.8.8.8/(home|sub|my|app|log)($|\/) url script-response-body eval_script.js
 
 ^https?://ios\.prod\.ftl\.netflix\.com/iosui/warmer/.+type=show-ath url script-response-body eval_script.js
