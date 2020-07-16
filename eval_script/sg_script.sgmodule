@@ -238,8 +238,6 @@ eval_script.js = type=http-response,requires-body=1,pattern=^https?:\/\/vira\.ll
 
 eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail),script-path=eval_script.js
 
-eval_script.js = type=http-response,requires-body=1,pattern=^https?:\/\/pan\.baidu\.com\/s\/,script-path=eval_script.js
-
 eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.revenuecat\.com\/v1\/(receipts|\d{1,})$,script-path=eval_script.js
 
 eval_script.js = type=http-response,requires-body=1,pattern=https://(commerce-.*api|pay).(faceu|wecut).(com|mobi)/(commerce|apple)/(iosAppVerifyReceipt.php|v1/subscription/user_info),script-path=eval_script.js
