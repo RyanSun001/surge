@@ -16,7 +16,7 @@ hostname = api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,ap
 
 ^https://8.8.8.8/api url script-request-body eval_script.js
 
-^https://8.8.8.8/(home|sub|my|app|log)($|\/) url script-response-body eval_script.js
+^https://8.8.8.8/(home|sub|my|app|log|revert)($|\/) url script-response-body eval_script.js
 
 ^https?://(sdk|wb)app.uve.weibo.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body eval_script.js
 
