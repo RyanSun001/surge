@@ -336,4 +336,6 @@ eval_script.js = type=http-request,pattern=https:\/\/api\.gamer\.com\.tw\/mobile
 
 eval_script.js = type=http-response,requires-body=1,pattern=https:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v3\/token\.php,script-path=eval_script.js
 
+eval_script.js = type=http-response,requires-body=1,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),script-path=eval_script.js
+
 eval_script.js = type=http-response,requires-body=1,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/warmer/.+type=show-ath,script-path=eval_script.js
